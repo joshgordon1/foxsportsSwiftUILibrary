@@ -1,2 +1,14 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+
+import SwiftUI
+
+struct SwiftUiLibTestComponent: View {
+    var body: some View {
+        Text("Hello, World!")
+        Text("This is new")
+    }
+}
+
+#Preview {
+    SwiftUiLibTestComponent()
+}
+
